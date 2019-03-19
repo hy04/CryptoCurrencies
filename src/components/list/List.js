@@ -29,7 +29,7 @@ class List extends Component {
       fetch(`${API_URL}/cryptocurrencies?page=${page}&perPage=20`)
         .then(handleResponse)
         .then((data) => {
-          console.log(data);
+          //console.log(data);
             const {currencies, totalPages}=data;
             this.setState({currencies:currencies, totalPages:totalPages, loading:false})
         })
