@@ -14,8 +14,8 @@ const Table =(props)=>{
         <thead className="Table-head">
           <tr>
             <th>Cryptocurrency</th>
-            <th>Price</th>
-            <th>Market Cap</th>
+            <th>Price (USD)</th>
+            <th>Market Cap (USD)</th>
             <th>24H change</th>
           </tr>
         </thead>
